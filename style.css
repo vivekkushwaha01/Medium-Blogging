@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(172, 167, 167);
+
+}
+
+header {
+    /* border: 1px solid black; */
+    /* display: flex;
+flex-direction: column; */
+    padding: 15px;
+}
+
+.top_box {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .left_box {
+border: 1px solid blue;
+} */
+
+.right_box {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* .box1 {
+border: 1px solid red;
+} */
+
+.box1 input {
+    text-align: center;
+    padding: 4px;
+}
+
+.box1 button {
+    padding: 5px;
+    /* border-radius: 3px; */
+    border: none;
+}
+
+.get_started_btn {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: gray;
+    color: white;
+}
+
+.get_started_btn:hover {
+    color: #1cf4f8;
+    background-color: #383838;
+    cursor: pointer;
+}
+
+.list ul {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:30px 0 0px 0; */
+    margin: 20px 0 0 0;
+    background-color: rgb(95, 93, 93);
+    border-radius: 3px;
+}
+
+.list ul li {
+    /* border:1px solid red; */
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+    background-color: #4b4b4b;
+
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.horizontal_rule hr {
+    height: 10px;
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    width: 95%;
+    display: block;
+    margin: 4px auto;
+}
+
+/* ------------------------------------main------------------------- */
+main {
+    /* border: 1px solid hotpink; */
+    padding: 15px;
+}
+
+.content_box {
+    flex-direction: row;
+    background-color: #c2c2c2;
+}
+
+.content_box,
+.footer_box {
+    border: 1px solid gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.box {
+    /* border: 1px solid red; */
+    padding: 5px;
+}
+
+.middle_part {
+    /* border: 1px solid red; */
+    padding: 10px;
+    color: gray;
+    text-align: justify;
+}
+
+.box img {
+    width: 400px;
+}
+
+.left_part,
+.right_part {
+    /* border: 1px solid blue; */
+    /* background-color: indianred; */
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+.box p:last-child {
+    font-weight: bold;
+}
+
+.image1 img {
+    width: 100px;
+}
+
+.image1 {
+    margin: 10px;
+}
+
+.left_part a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.right_part p a {
+    color: black;
+    text-decoration: none;
+}
+
+.right_part p a:hover {
+    color: #62a5c0;
+}
+
+/* ------------------------------------------------------------------------------------- */
+.large_image1 {
+    background-image: url(/imagesblue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    /* opacity: 0.3; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* .large_image1_text {
+border: 1px solid red;
+
+} */
+
+/* ---------------------------------Footer---------------------------------------  */
+.footer_box {
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: #4b4b4b;
+}
+
+.row {
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    /* margin:0 30px; */
+}
+
+li {
+    padding: 0px 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_icon {
+    display: flex;
+
+}
+
+.footer_icon h1 {
+    margin: 10px 5px;
+}
+
+.fa-facebook {
+    color: blue;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    color: skyblue;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-google-plus {
+    color: brown;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-facebook-messanger {
+    color: orange;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-facebook:hover {
+    opacity: 0.5;
+    background-color: green;
+}
+
+.fa-twitter:hover {
+    opacity: 0.5;
+    background-color: green;
+}
+
+.fa-google-plus:hover {
+    opacity: 0.5;
+    background-color: green;
+}
+
+.fa-facebook-messanger:hover {
+    opacity: 0.5;
+    background-color: green;
+}
+
+.fa-youtube:hover {
+    opacity: 0.5;
+    background-color: green;
+}
